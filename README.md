@@ -2,7 +2,7 @@
 Install and configure LAMP stack with WordPress system
 
 To install wordpress
-<br>
+<br><br>
 - Download script file
 <br>
 wget https://raw.githubusercontent.com/bakriabbas/wordpress_ubuntu/main/install_wp_ubuntu
@@ -12,7 +12,7 @@ wget https://raw.githubusercontent.com/bakriabbas/wordpress_ubuntu/main/install_
 <br>
 chmod u+x install_wp_ubuntu
 
-<br>
+<br><br>
 - Run script with sudo to get the required privileges
 <br>
 sudo ./install_wp_ubuntu
