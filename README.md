@@ -7,7 +7,7 @@ To install wordpress
 <br>
 wget https://raw.githubusercontent.com/bakriabbas/wordpress_ubuntu/main/install_wp_ubuntu
 
-<br>
+<br><br>
 - Add execute permission to the file
 <br>
 chmod u+x install_wp_ubuntu
