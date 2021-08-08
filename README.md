@@ -17,6 +17,9 @@ chmod u+x install_wp_ubuntu
 <br>
 sudo ./install_wp_ubuntu
 
+<br><br><br><br><br>
 Test on Ubuntu 20.04
+<br>
 Create by: Abubakr Mohammed
+<br>
 Create by: abubakr.mabbas@hotmail.com
