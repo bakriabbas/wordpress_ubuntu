@@ -18,7 +18,7 @@ Run script with sudo to get the required privileges
 sudo ./install_wp_ubuntu
 
 <br><br><br><br><br>
-Test on Ubuntu 20.04
+Tested on Ubuntu 20.04
 <br>
 Create by: Abubakr Mohammed
 <br>
