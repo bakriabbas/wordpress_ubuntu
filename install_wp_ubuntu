@@ -19,7 +19,7 @@ apt-get -y autoremove
 echo "Installing required packages ..."
 echo "mysql-server-5.7 mysql-server/root_password password $newsqlpass" | debconf-set-selections
 echo "mysql-server-5.7 mysql-server/root_password_again password $newsqlpass" | debconf-set-selections
-apt-get -y install apache2 php mysql-server php-mysql
+apt -y install apache2 php mysql-server php-mysql
 # ufw allow in "Apache Full"
 phpver=$(php -v | grep ^PHP | cut -d ' ' -f 2 | cut -c 1-3)
 sed -i "s/#ServerName www.example.com/ServerName $host/" /etc/apache2/sites-enabled/000-default.conf
@@ -37,7 +37,7 @@ mysql -u root -p$newsqlpass -e "flush privileges"
 
 echo "Downloading and extracting Wordpress ..."
 wget https://wordpress.org/latest.tar.gz
-tar -xf latest.tar.gz -C /var/www/
+tar -xf latest.tar.gz -C /var/www
 rm -rf latest.tar.gz
 cd /var/www/wordpress
 cp wp-config-sample.php wp-config.php
